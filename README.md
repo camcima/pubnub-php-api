@@ -1,3 +1,5 @@
+# Deprecated. Please use https://github.com/pubnub/php
+
 ###YOU MUST HAVE A PUBNUB ACCOUNT TO USE THE API.
 ###http://www.pubnub.com/account
 
