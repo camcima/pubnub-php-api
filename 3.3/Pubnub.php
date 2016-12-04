@@ -277,7 +277,7 @@ class Pubnub
     public function handleError($error, $args)
     {
         $errorMsg = 'Error on line ' . $error->getLine() . ' in ' . $error->getFile() . $error->getMessage();
-        trigger_error($errorMsg, E_COMPILE_WARNING);
+        trigger_error($errorMsg, E_USER_WARNING);
 
 
         sleep(1);
